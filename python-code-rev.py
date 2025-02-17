@@ -8,7 +8,7 @@ and lastly give summry or explanation
  '''
 model = ai.GenerativeModel(system_instruction=sys_prompt)
 sp.title('Python Code Reviewer')
-user_prompt = sp.text_area('Enter your code here : ',placeholder = 'enter your qurey here:',height=200 )
+user_prompt = sp.text_area('Enter your code here : ',placeholder = 'enter your query here:',height=200 )
 button = sp.button('Review')
 
 if button == True:
